@@ -12,6 +12,7 @@
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source> <!-- mvn clean package-->
         <maven.compiler.target>1.8</maven.compiler.target>
+        <aaa>1.1.1.1.0Last</aaa>
     </properties>
 
 
@@ -38,7 +39,7 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>8.0.12</version>
+            <version>${aaa}</version>
         </dependency>
 
         <!-- 处理json数据 -->
