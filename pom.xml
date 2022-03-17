@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>sec</groupId>
@@ -12,7 +10,7 @@
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source> <!-- mvn clean package-->
         <maven.compiler.target>1.8</maven.compiler.target>
-        <aaa>1.1.1.1.0Last</aaa>
+        <aaa>8.1.11</aaa>
     </properties>
 
 
@@ -29,20 +27,20 @@
         </dependency>
 
 
-        <!-- æ·»åŠ thymeleafä¸ºäº†åŠ¨æ€è§£æžhtml-->
+        <!-- Ìí¼ÓthymeleafÎªÁË¶¯Ì¬½âÎöhtml-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
         </dependency>
 
-        <!-- å¤„ç†jdbcçš„mysqlè¿žæŽ¥-->
+        <!-- ´¦ÀíjdbcµÄmysqlÁ¬½Ó-->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>${aaa}</version>
         </dependency>
 
-        <!-- å¤„ç†jsonæ•°æ® -->
+        <!-- ´¦ÀíjsonÊý¾Ý -->
         <!-- https://mvnrepository.com/artifact/com.alibaba/fastjson -->
         <dependency>
             <groupId>com.alibaba</groupId>
@@ -51,7 +49,7 @@
         </dependency>
 
 
-        <!-- jdomè§£æžxml æœ€æ–°ç‰ˆæœ¬ä¸º2.0.6 æ—¶é—´ä¸º2015-02-28 https://github.com/hunterhacker/jdom/releases-->
+        <!-- jdom½âÎöxml ×îÐÂ°æ±¾Îª2.0.6 Ê±¼äÎª2015-02-28 https://github.com/hunterhacker/jdom/releases-->
         <!-- https://mvnrepository.com/artifact/org.jdom/jdom2 -->
         <dependency>
             <groupId>org.jdom</groupId>
@@ -67,7 +65,7 @@
         </dependency>
 
 
-        <!-- èŽ·å–urlæ ¹åŸŸå-->
+        <!-- »ñÈ¡url¸ùÓòÃû-->
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
@@ -117,14 +115,14 @@
             <version>3.2</version>
         </dependency>
 
-        <!-- SpringBoot Actuatorå‘½ä»¤æ‰§è¡Œçš„åº“ -->
+        <!-- SpringBoot ActuatorÃüÁîÖ´ÐÐµÄ¿â -->
         <dependency>
             <groupId>org.jolokia</groupId>
             <artifactId>jolokia-core</artifactId>
             <version>1.6.0</version>
         </dependency>
 
-        <!-- æ·»åŠ SpringBoot Actuator-->
+        <!-- Ìí¼ÓSpringBoot Actuator-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
@@ -136,14 +134,14 @@
             <version>1.4.0.RELEASE</version>
         </dependency>
 
-        <!-- ç”Ÿæˆuuid -->
+        <!-- Éú³Éuuid -->
         <dependency>
             <groupId>com.fasterxml.uuid</groupId>
             <artifactId>java-uuid-generator</artifactId>
             <version>3.1.4</version>
         </dependency>
 
-        <!-- 5.xçš„spring-securityç‰ˆæœ¬ä¸é€‚é…springboot 1.5ï¼Œå› ä¸º1.5çš„springbootçš„spring-coreç‰ˆæœ¬æ˜¯4.xï¼Œæ‰€ä»¥spring-securityæ”¹ä¸º4.xå³å¯é€‚é…ã€‚ -->
+        <!-- 5.xµÄspring-security°æ±¾²»ÊÊÅäspringboot 1.5£¬ÒòÎª1.5µÄspringbootµÄspring-core°æ±¾ÊÇ4.x£¬ËùÒÔspring-security¸ÄÎª4.x¼´¿ÉÊÊÅä¡£ -->
         <dependency>
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-web</artifactId>
