@@ -39,7 +39,7 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>${aaa}</version>
+            <version>8.0.20</version>
         </dependency>
 
         <!-- 处理json数据 -->
