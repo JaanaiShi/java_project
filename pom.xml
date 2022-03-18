@@ -27,20 +27,20 @@
         </dependency>
 
 
-        <!-- Ìí¼ÓthymeleafÎªÁË¶¯Ì¬½âÎöhtml-->
+        <!-- æ·»åŠ thymeleafä¸ºäº†åŠ¨æ€è§£æžhtml-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
         </dependency>
 
-        <!-- ´¦ÀíjdbcµÄmysqlÁ¬½Ó-->
+        <!-- å¤„ç†jdbcçš„mysqlè¿žæŽ¥-->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>${aaa}</version>
         </dependency>
 
-        <!-- ´¦ÀíjsonÊý¾Ý -->
+        <!-- å¤„ç†jsonæ•°æ® -->
         <!-- https://mvnrepository.com/artifact/com.alibaba/fastjson -->
         <dependency>
             <groupId>com.alibaba</groupId>
@@ -49,7 +49,7 @@
         </dependency>
 
 
-        <!-- jdom½âÎöxml ×îÐÂ°æ±¾Îª2.0.6 Ê±¼äÎª2015-02-28 https://github.com/hunterhacker/jdom/releases-->
+        <!-- jdomè§£æžxml æœ€æ–°ç‰ˆæœ¬ä¸º2.0.6 æ—¶é—´ä¸º2015-02-28 https://github.com/hunterhacker/jdom/releases-->
         <!-- https://mvnrepository.com/artifact/org.jdom/jdom2 -->
         <dependency>
             <groupId>org.jdom</groupId>
@@ -65,7 +65,7 @@
         </dependency>
 
 
-        <!-- »ñÈ¡url¸ùÓòÃû-->
+        <!-- èŽ·å–urlæ ¹åŸŸå-->
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
@@ -115,14 +115,14 @@
             <version>3.2</version>
         </dependency>
 
-        <!-- SpringBoot ActuatorÃüÁîÖ´ÐÐµÄ¿â -->
+        <!-- SpringBoot Actuatorå‘½ä»¤æ‰§è¡Œçš„åº“ -->
         <dependency>
             <groupId>org.jolokia</groupId>
             <artifactId>jolokia-core</artifactId>
             <version>1.6.0</version>
         </dependency>
 
-        <!-- Ìí¼ÓSpringBoot Actuator-->
+        <!-- æ·»åŠ SpringBoot Actuator-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
@@ -134,14 +134,14 @@
             <version>1.4.0.RELEASE</version>
         </dependency>
 
-        <!-- Éú³Éuuid -->
+        <!-- ç”Ÿæˆuuid -->
         <dependency>
             <groupId>com.fasterxml.uuid</groupId>
             <artifactId>java-uuid-generator</artifactId>
             <version>3.1.4</version>
         </dependency>
 
-        <!-- 5.xµÄspring-security°æ±¾²»ÊÊÅäspringboot 1.5£¬ÒòÎª1.5µÄspringbootµÄspring-core°æ±¾ÊÇ4.x£¬ËùÒÔspring-security¸ÄÎª4.x¼´¿ÉÊÊÅä¡£ -->
+        <!-- 5.xçš„spring-securityç‰ˆæœ¬ä¸é€‚é…springboot 1.5ï¼Œå› ä¸º1.5çš„springbootçš„spring-coreç‰ˆæœ¬æ˜¯4.xï¼Œæ‰€ä»¥spring-securityæ”¹ä¸º4.xå³å¯é€‚é…ã€‚ -->
         <dependency>
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-web</artifactId>
