@@ -27,20 +27,20 @@
         </dependency>
 
 
-        <!-- æ·»åŠ thymeleafä¸ºäº†åŠ¨æ€è§£æžhtml-->
+        <!-- Ìí¼ÓthymeleafÎªÁË¶¯Ì¬½âÎöhtml-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
         </dependency>
 
-        <!-- å¤„ç†jdbcçš„mysqlè¿žæŽ¥-->
+        <!-- ´¦ÀíjdbcµÄmysqlÁ¬½Ó-->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>8.0.20</version>
+            <version>8.1.11</version>
         </dependency>
 
-        <!-- å¤„ç†jsonæ•°æ® -->
+        <!-- ´¦ÀíjsonÊý¾Ý -->
         <!-- https://mvnrepository.com/artifact/com.alibaba/fastjson -->
         <dependency>
             <groupId>com.alibaba</groupId>
@@ -49,7 +49,7 @@
         </dependency>
 
 
-        <!-- jdomè§£æžxml æœ€æ–°ç‰ˆæœ¬ä¸º2.0.6 æ—¶é—´ä¸º2015-02-28 https://github.com/hunterhacker/jdom/releases-->
+        <!-- jdom½âÎöxml ×îÐÂ°æ±¾Îª2.0.6 Ê±¼äÎª2015-02-28 https://github.com/hunterhacker/jdom/releases-->
         <!-- https://mvnrepository.com/artifact/org.jdom/jdom2 -->
         <dependency>
             <groupId>org.jdom</groupId>
@@ -65,7 +65,7 @@
         </dependency>
 
 
-        <!-- èŽ·å–urlæ ¹åŸŸå-->
+        <!-- »ñÈ¡url¸ùÓòÃû-->
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
